@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>TAIPEI FIR CTOT</title>
+</head>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<body>
+    <div class='container' align='center'>
+        <br>
+        <h4>
+            EAST ASIA ATFM
+        </h4>
+        <br>
+        <div class="row">
+            <div class="col-md-10 col-sm-10">
+                <h4>
+                    CACULATED TAKE-OFF TIME (CTOT) ANNOUNCEMENT
+                </h4>
+            </div>
+            <div class="col-md-2 col-sm-2" align='right' style="background-color:crimson;color:white">
+                <div align='center'>
+                    UPDATE: {{update_time}}
+                </div>
+            </div>
+        </div>
+
+        <table style="border-color:white;border-width:3px;border-style:solid;padding:5px;" cellpadding="5" border='10'>
+            <thead>
+                <tr>
+                    <th style="text-align:center;width:200px;color:white;background-color:DeepSkyBlue">NO.</th>
+                    <th style="text-align:center;width:200px;color:white;background-color:DeepSkyBlue">CALLSIGN</th>
+                    <th style="text-align:center;width:200px;color:white;background-color:DeepSkyBlue">DEPARTURE</th>
+                    <th style="text-align:center;width:200px;color:white;background-color:deeppink">CTOT</th>
+                    <th style="text-align:center;width:200px;color:white;background-color:deeppink">CTOT UPDATE</th>
+                    <th style="text-align:center;width:300px;color:white;background-color:deeppink">DEP WINDOW TIME</th>
+                    <th style="text-align:center;width:200px;color:white;background-color:DeepSkyBlue">DESTINATION</th>
+                    <th style="text-align:center;width:200px;color:white;background-color:DeepSkyBlue">REMARKS</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{table}}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
